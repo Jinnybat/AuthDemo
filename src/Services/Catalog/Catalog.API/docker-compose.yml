@@ -1,0 +1,30 @@
+version: '3.5'
+
+services:
+  catalogDb:
+    container_name: ps_catalogdb
+    image: mongo
+    restart: always
+    # ports:
+    #   - "2258:27017"
+    # volumes:
+    #   - catalog_db_vscode=/data/db
+
+  catalogApi:
+    container_name: ps_catalogApi
+    build: .
+    image: jinnybat/dotnet-microservice
+      # context: .
+      # dockerfile: .
+    ports:
+      - "9000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DatabaseSettings__ConnectionString=mongodb://catalogDb:27017
+      - DatabaseSettings__DatabaseName=ProductDb
+      - DatabaseSettings__CollectionName=Products
+    depends_on:
+      - catalogDb
+
+#volumes:
+#  catalogDb: {}
