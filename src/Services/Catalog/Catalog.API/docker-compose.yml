@@ -1,14 +1,15 @@
 version: '3.5'
+name: catalog
 
 services:
   catalogDb:
     container_name: ps_catalogdb
     image: mongo
     restart: always
-    # ports:
-    #   - "2258:27017"
-    # volumes:
-    #   - catalog_db_vscode=/data/db
+    volumes:
+      - catalog_db_vol:
+          # ports:
+          #   - "2258:27017"
 
   catalogApi:
     container_name: ps_catalogApi
@@ -26,5 +27,5 @@ services:
     depends_on:
       - catalogDb
 
-#volumes:
-#  catalogDb: {}
+volumes:
+  catalog_db_vol: {}
