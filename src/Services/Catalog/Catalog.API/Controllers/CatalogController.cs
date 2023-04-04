@@ -90,9 +90,8 @@ public class CatalogController : ControllerBase
         return Ok(await productRepository.DeleteProduct(id));
     }
     
-    [Route("[action]/{test}", Name = "Test")]
-    [HttpGet]
-    public IActionResult Test(string test)
+    [HttpGet("test")]
+    public IActionResult Test()
     {
         return Ok();
     }
