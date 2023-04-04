@@ -89,4 +89,10 @@ public class CatalogController : ControllerBase
     {
         return Ok(await productRepository.DeleteProduct(id));
     }
+    
+    [HttpGet("test")]
+    public IActionResult Test()
+    {
+        return Ok();
+    }
 }
