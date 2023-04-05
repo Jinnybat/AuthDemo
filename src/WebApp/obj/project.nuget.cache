@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUI2WhRuIkOgYlha8ttroVmAEAsKMic29iGm6dwmsUKb0Y8K0XCemchVTUEAd/7rJnmXkDDts9CzIsySD/Bu0w==",
+  "dgSpecHash": "5AbFFF1c4uWahcUeO0mVxPPDWNNaa7mK/JU9TYuD6yHYsSLlcSi/FrGGGM3EYMYFikDmZcDUAY9obI+tuJmlVg==",
   "success": true,
-  "projectFilePath": "E:\\AuthDemo\\src\\WebApp\\WebApp.csproj",
+  "projectFilePath": "D:\\vscode\\AuthDemo\\AuthDemo\\src\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
