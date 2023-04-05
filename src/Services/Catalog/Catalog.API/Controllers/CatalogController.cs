@@ -90,8 +90,8 @@ public class CatalogController : ControllerBase
         return Ok(await productRepository.DeleteProduct(id));
     }
     
-    [HttpGet("test")]
-    public IActionResult Test()
+    [HttpGet("Seed")]
+    public IActionResult Seed()
     {
         return Ok();
     }
