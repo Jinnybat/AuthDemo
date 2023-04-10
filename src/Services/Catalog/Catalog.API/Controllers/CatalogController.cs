@@ -91,11 +91,11 @@ public class CatalogController : ControllerBase
     }
 
     [HttpGet("Seed")]
-    public IActionResult Seed()
+    public IActionResult Seed(string name)
     {
         return Ok(new
         {
-            Message = "Method works fine"
+            Message = $"Method works fine with name {name}"
         });
     }
 }
