@@ -1,6 +1,5 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  },
-  "forwardPorts": ["9000"]
+  "features": {},
+  "forwardPorts": [9000]
 }
