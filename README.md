@@ -2,8 +2,4 @@
 aspnetMicroservice
 
 
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWFlMjU1MGUtNGQ2OC00NjJjLWE5ZjUtZjI3YjkwNzhhZTdl%40thread.v2/0?context=%7b%22Tid%22%3a%228f3e36ea-8039-4b40-81a7-7dc0599e8645%22%2c%22Oid%22%3a%22318b438f-ee8d-44bc-9624-88edaa65d838%22%7d
-
-
-
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWFlMjU1MGUtNGQ2OC00NjJjLWE5ZjUtZjI3YjkwNzhhZTdl%40thread.v2/0?context=%7b%22Tid%22%3a%228f3e36ea-8039-4b40-81a7-7dc0599e8645%22%2c%22Oid%22%3a%22318b438f-ee8d-44bc-9624-88edaa65d838%22%7d
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODUzZDg0YTEtODMzNi00MzhiLWIwZDgtMTM1ZDM2YjM0ZWRm%40thread.v2/0?context=%7b%22Tid%22%3a%22189de737-c93a-4f5a-8b68-6f4ca9941912%22%2c%22Oid%22%3a%2220c0acb4-3e8b-413f-b9ba-8ffaf5bf5ddc%22%7d
